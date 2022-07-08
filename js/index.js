@@ -24,7 +24,7 @@ menuHam.addEventListener('click', (e) => {
 
 //Cargando los datos de un JSON con fetch
 const cargarCupcakes = async () => {
-    const url = 'http://127.0.0.1:5500/data.json'
+    const url = 'https://my-json-server.typicode.com/DavidXploidz/Cupcake-Store/cupcakes'
     const respuesta = await fetch(url)
     const resultado = await respuesta.json()
     mostrarCupcakes(resultado.cupcakes)
