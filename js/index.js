@@ -27,8 +27,8 @@ const cargarCupcakes = async () => {
     const url = 'https://my-json-server.typicode.com/DavidXploidz/Cupcake-Store/cupcakes'
     const respuesta = await fetch(url)
     const resultado = await respuesta.json()
-    mostrarCupcakes(resultado.cupcakes)
-    filtrarCupcakes(resultado.cupcakes)
+    mostrarCupcakes(resultado)
+    filtrarCupcakes(resultado)
 }
 
 //Funcion para generar y mostrar los resultados
