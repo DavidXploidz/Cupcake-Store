@@ -126,6 +126,9 @@ img{
         column-gap: 5rem;
         margin-right: 10rem;
    }
+   .enlaces li a:hover{
+        color: var(--amarillo);
+   }
    .enlaces li {
     padding: 0;
    }
