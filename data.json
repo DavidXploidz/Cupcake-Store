@@ -1,0 +1,136 @@
+{
+    "cupcakes": [
+      {
+        "flavor": "Vanilla",
+        "images": {
+          "webp": "./images/cupcake-vanilla.webp"
+        },
+        "description": "Classic vanilla cupcake with a vanilla bean creme icing.",
+        "price": {
+            "regular" : "$3.00",
+            "mini" : "$2.00"
+        },
+        "category": "classic"
+      },
+      {
+        "flavor": "Chocolate",
+        "images": {
+          "webp": "./images/cupcake-chocolate.webp"
+        },
+        "description": "Classic chocolate cupcake with a mousse topping. Dusted with cocoa.",
+        "price": {
+            "regular" : "$3.00",
+            "mini" : "$2.00"
+        },
+        "category": "classic"
+      },
+      {
+        "flavor": "Red Velvet",
+        "images": {
+          "webp": "./images/cupcake-red.webp"
+        },
+        "description": "Deep red cupcake with a cream cheese icing and crumble.",
+        "price": {
+            "regular" : "$3.10",
+            "mini" : "$2.10"
+        },
+        "category": "classic"
+      },
+      {
+        "flavor": "Lemon",
+        "images": {
+          "webp": "./images/cupcake-lemon.webp"
+        },
+        "description": "Soft lemon cupcake made with fresh lemon curd and topped with a zest-infused buttercream icing.",
+        "price": {
+            "regular" : "$3.30",
+            "mini" : "$2.20"
+        },
+        "category": "classic"
+      },
+      {
+        "flavor": "Easter",
+        "images": {
+          "webp": "./images/cupcake-easter.webp"
+        },
+        "description": "Classic vanilla cupcake on a graham cracker base with chocolate eggs and pistachio icing.",
+        "price": {
+            "regular" : "$3.50",
+            "mini" : "$2.50"
+        },
+        "category": "seasonal"
+      },
+      {
+        "flavor": "Galaxy",
+        "images": {
+          "webp": "./images/cupcake-galaxy.jpg"
+        },
+        "description": "Rich dark chocolate cake infused with Earl Gray, topped with a galactic buttercream and shining sprinkles.",
+        "price": {
+            "regular" : "$3.50",
+            "mini" : "$2.50"
+        },
+        "category": "seasonal"
+      },
+      {
+        "flavor": "Moka",
+        "images": {
+          "webp": "./images/cupcake-moka.webp"
+        },
+        "description": "Gluten free chocolate cupcakes with a coffee-infused icing and mini chips.",
+        "price": {
+            "regular" : "$3.30",
+            "mini" : "$2.20"
+        },
+        "category": "gluten free"
+      },
+      {
+        "flavor": "Golden Vanilla",
+        "images": {
+          "webp": "./images/cupcake-golden.webp"
+        },
+        "description": "Crispy golden cupcakes with a creamy vanilla icing. Did we mention they are gluten-free?",
+        "price": {
+            "regular" : "$3.30",
+            "mini" : "$2.20"
+        },
+        "category": "gluten free"
+      },
+      {
+        "flavor": "Toffee",
+        "images": {
+          "webp": "./images/cupcake-toffee.webp"
+        },
+        "description": "Vanilla cupcake with toffee drizzle and icing. Topped with a refreshing cinnamon wafer.",
+        "price": {
+            "regular" : "$3.35",
+            "mini" : "$2.30"
+        },
+        "category": "seasonal"
+      },
+      {
+        "flavor": "Oreo",
+        "images": {
+          "webp": "./images/cupcake-oreo.webp"
+        },
+        "description": "Vanilla cupcake with flecks of oreo cookie in the batter. Tasty buttercream icing and an oreo, the perfect cookies and cream flavour.",
+        "price": {
+            "regular" : "$3.30",
+            "mini" : "$2.20"
+        },
+        "category": "classic"
+      },
+      {
+        "flavor": "Black Forest",
+        "images": {
+          "webp": "./images/cupcake-forest.webp"
+        },
+        "description": "Gluten-free chocolate cupcake with a glazed vanilla bean icing and a cherry.",
+        "price": {
+            "regular" : "$3.30",
+            "mini" : "$2.20"
+        },
+        "category": "gluten free"
+      }
+    ]
+  }

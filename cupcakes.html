@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--Fuentes de google-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/normalize.css">
+     <link rel="stylesheet" href="css/styles.css">
+    <title>Our Cupcakes</title>
+</head>
+<body>
+    <div class="morado">
+        <nav class="navegacion contenedor">
+            <h3>Sherry's Cupcakes</h3>
+            <img src="./images/menu-ham.svg" alt="icon-ham" width="50px" id="menu-ham" class="menu-ham" >
+       </nav>
+       <ul class="enlaces">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cupcakes.html">Our Cupcakes</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+       </ul>
+    </div>
+    <header class="header-our">
+        <div class="hero-our">
+            <h2>Our Cupcakes</h2>
+        </div>
+    </header>
+
+    <section class=" dozen-section">
+        <p class="contenedor">
+            All of our cupcakes are made fresh at the beginning of the day, set to cool and iced with our delicious buttercream icing. Each cupcake is made with either a vanilla or chocolate cake base.
+        </p>
+        <div class="contenedor ">
+            <h4>Cupcake Boxes</h4>
+            <div class="dozen-contenido">
+                <img src="./images/cupcake-toffee.webp" alt="cupcake image">
+                <div>
+                    <div class="dozen">
+                        <h5 class="dozen-title">Half of dozen</h5>
+                        <div class='flex-between'>
+                            <p>Regular</p>
+                            <span>$20</span>
+                        </div>
+                        <div class='flex-between'>
+                            <p>Mini</p>
+                            <span>$12</span>
+                        </div>
+                    </div>
+                    <div class="dozen">
+                        <h5 class="dozen-title">dozen</h5>
+                        <div class='flex-between'>
+                            <p>Regular</p>
+                            <span>$35</span>
+                        </div>
+                        <div class='flex-between'>
+                            <p>Mini</p>
+                            <span>$20</span>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+            
+        </div>
+        <div class="contenedor">
+            <h4>Cupcake Flavours</h4>
+            <div class="botonesFilter">
+                <button data-id="all" id="all">All</button>
+                <button data-id="classic" id="classic">Classic</button>
+                <button data-id="seasonal" id="seasonal">Seasonal</button>
+                <button data-id="gluten free" id="gluten-free">Gluten free</button>
+            </div>
+            <!--Aqui el contenedor de los cupcakes generados-->
+            <div id="resultado" class="contenedor resultado" >
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="contenedor footer-contenido">
+            <div class="footer-horas">
+                <h4>HOURS</h4>
+                <p>Mon-fri: <span>8:00am-5pm</span> </p>
+                <p>Sat & Sun: <span>9:00am-4pm</span> </p>
+            </div>
+            <div>
+                <h4>GET IN TOUCH</h4>
+                <p>1(403)-123-456</p>
+                <p>Stephen Ave. Downtown Calgary</p>
+                <div class="footer-redes">
+                    <img src="./images/facebook-icon.svg" alt="icon facebook">
+                    <img src="./images/instagram-icon.svg" alt="icon instagram">
+                    <img src="./images/twitter-icon.svg" alt="icon twitter">
+                </div>
+            </div>
+        </div>
+        <div>
+            <p>&#169; 2022 Sherry's Cupcakes</p>
+        </div>
+    </footer>
+    
+    <script src="./js/index.js"></script>
+    
+</body>
+</html>
